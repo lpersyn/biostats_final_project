@@ -1,0 +1,133 @@
+{
+  "fold": 0,
+  "num_samples": 100,
+  "num_features": 1921,
+  "expected_values": null,
+  "top_features": [
+    {
+      "feature": "PAX8 (7849)",
+      "mean_abs_shap": 0.0012630564607461795,
+      "fold": 0
+    },
+    {
+      "feature": "PTPN6 (5777)",
+      "mean_abs_shap": 0.0009599450688427436,
+      "fold": 0
+    },
+    {
+      "feature": "FKBP9 (11328)",
+      "mean_abs_shap": 0.0008826293939301185,
+      "fold": 0
+    },
+    {
+      "feature": "FOXA1 (3169)",
+      "mean_abs_shap": 0.0008783374325184286,
+      "fold": 0
+    },
+    {
+      "feature": "SPN (6693)",
+      "mean_abs_shap": 0.0008494579039459327,
+      "fold": 0
+    },
+    {
+      "feature": "SOX10 (6663)",
+      "mean_abs_shap": 0.000840634681400759,
+      "fold": 0
+    },
+    {
+      "feature": "RNF212 (285498)",
+      "mean_abs_shap": 0.0008154300015891133,
+      "fold": 0
+    },
+    {
+      "feature": "SLC35D2 (11046)",
+      "mean_abs_shap": 0.0007512590600497647,
+      "fold": 0
+    },
+    {
+      "feature": "C2orf74 (339804)",
+      "mean_abs_shap": 0.0007219097039063045,
+      "fold": 0
+    },
+    {
+      "feature": "PARVA (55742)",
+      "mean_abs_shap": 0.0007046193124260246,
+      "fold": 0
+    },
+    {
+      "feature": "IFFO1 (25900)",
+      "mean_abs_shap": 0.0006985016074984715,
+      "fold": 0
+    },
+    {
+      "feature": "EFHD1 (80303)",
+      "mean_abs_shap": 0.0005830608235994145,
+      "fold": 0
+    },
+    {
+      "feature": "CYBA (1535)",
+      "mean_abs_shap": 0.0005492717517870231,
+      "fold": 0
+    },
+    {
+      "feature": "ARHGEF6 (9459)",
+      "mean_abs_shap": 0.0005392910346091674,
+      "fold": 0
+    },
+    {
+      "feature": "IRF4 (3662)",
+      "mean_abs_shap": 0.0005198495322738065,
+      "fold": 0
+    },
+    {
+      "feature": "XAGE1A (653220)",
+      "mean_abs_shap": 0.0005041379468692228,
+      "fold": 0
+    },
+    {
+      "feature": "LYL1 (4066)",
+      "mean_abs_shap": 0.000476547079819498,
+      "fold": 0
+    },
+    {
+      "feature": "LTBR (4055)",
+      "mean_abs_shap": 0.00041195189574184287,
+      "fold": 0
+    },
+    {
+      "feature": "HOXD8 (3234)",
+      "mean_abs_shap": 0.00040047626672706473,
+      "fold": 0
+    },
+    {
+      "feature": "CYB561 (1534)",
+      "mean_abs_shap": 0.00040041027005877913,
+      "fold": 0
+    },
+    {
+      "feature": "MGP (4256)",
+      "mean_abs_shap": 0.0003930398742981431,
+      "fold": 0
+    },
+    {
+      "feature": "IKZF1 (10320)",
+      "mean_abs_shap": 0.00038481420573809456,
+      "fold": 0
+    },
+    {
+      "feature": "ARHGAP30 (257106)",
+      "mean_abs_shap": 0.00038344896119229366,
+      "fold": 0
+    },
+    {
+      "feature": "BNIP3 (664)",
+      "mean_abs_shap": 0.0003755437836592557,
+      "fold": 0
+    },
+    {
+      "feature": "INA (9118)",
+      "mean_abs_shap": 0.000372647350440918,
+      "fold": 0
+    }
+  ]
+}

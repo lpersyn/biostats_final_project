@@ -1,0 +1,9 @@
+Fold 0: Train acc: 1.0000, Val acc: 0.7630, Time: 1.86 mins
+Fold 1: Train acc: 1.0000, Val acc: 0.7457, Time: 2.08 mins
+Fold 2: Train acc: 1.0000, Val acc: 0.7688, Time: 1.93 mins
+Fold 3: Train acc: 1.0000, Val acc: 0.7110, Time: 2.01 mins
+Fold 4: Train acc: 1.0000, Val acc: 0.7209, Time: 1.95 mins
+Fold 5: Train acc: 1.0000, Val acc: 0.7733, Time: 2.71 mins
+Fold 6: Train acc: 1.0000, Val acc: 0.7093, Time: 1.50 mins
+Fold 7: Train acc: 1.0000, Val acc: 0.7849, Time: 1.30 mins
+Fold 8: Train acc: 1.0000, Val acc: 0.7442, Time: 1.30 mins

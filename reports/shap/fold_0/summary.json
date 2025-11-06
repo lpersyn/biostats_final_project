@@ -5,128 +5,128 @@
   "expected_values": null,
   "top_features": [
     {
-      "feature": "CPNE3 (8895)",
-      "mean_abs_shap": 0.001140645883090044,
+      "feature": "VMP1 (81671)",
+      "mean_abs_shap": 0.003727434166532148,
       "fold": 0
     },
     {
-      "feature": "NEBL (10529)",
-      "mean_abs_shap": 0.0010599029076058615,
+      "feature": "ANO2 (57101)",
+      "mean_abs_shap": 0.0035181328752544525,
       "fold": 0
     },
     {
-      "feature": "FGFR1 (2260)",
-      "mean_abs_shap": 0.0009569981899507382,
+      "feature": "TNS1 (7145)",
+      "mean_abs_shap": 0.002185814578636608,
       "fold": 0
     },
     {
-      "feature": "GAL (51083)",
-      "mean_abs_shap": 0.0008932224343454056,
-      "fold": 0
-    },
-    {
-      "feature": "BPIFB2 (80341)",
-      "mean_abs_shap": 0.0007197684020217171,
-      "fold": 0
-    },
-    {
-      "feature": "RUNX3 (864)",
-      "mean_abs_shap": 0.0005321963413772713,
-      "fold": 0
-    },
-    {
-      "feature": "PRDM1 (639)",
-      "mean_abs_shap": 0.0004936976142645827,
-      "fold": 0
-    },
-    {
-      "feature": "RAB21 (23011)",
-      "mean_abs_shap": 0.0004556920555246327,
-      "fold": 0
-    },
-    {
-      "feature": "TSPAN6 (7105)",
-      "mean_abs_shap": 0.00041118902896783584,
-      "fold": 0
-    },
-    {
-      "feature": "TESC (54997)",
-      "mean_abs_shap": 0.00040129803369886875,
-      "fold": 0
-    },
-    {
-      "feature": "UTS2 (10911)",
-      "mean_abs_shap": 0.00034281270322885504,
-      "fold": 0
-    },
-    {
-      "feature": "CXCL2 (2920)",
-      "mean_abs_shap": 0.0002899481730922097,
-      "fold": 0
-    },
-    {
-      "feature": "HEBP1 (50865)",
-      "mean_abs_shap": 0.0002895520665430609,
-      "fold": 0
-    },
-    {
-      "feature": "KCNAB2 (8514)",
-      "mean_abs_shap": 0.0002861420858961716,
-      "fold": 0
-    },
-    {
-      "feature": "HDHD5 (27440)",
-      "mean_abs_shap": 0.00025372940537414117,
-      "fold": 0
-    },
-    {
-      "feature": "RCN1 (5954)",
-      "mean_abs_shap": 0.0002456389052627174,
-      "fold": 0
-    },
-    {
-      "feature": "SIDT1 (54847)",
-      "mean_abs_shap": 0.00023471534706772908,
-      "fold": 0
-    },
-    {
-      "feature": "ACTR6 (64431)",
-      "mean_abs_shap": 0.0002215997863397001,
-      "fold": 0
-    },
-    {
-      "feature": "SLC4A11 (83959)",
-      "mean_abs_shap": 0.00021511925920518973,
-      "fold": 0
-    },
-    {
-      "feature": "RNF10 (9921)",
-      "mean_abs_shap": 0.00020427908088212847,
-      "fold": 0
-    },
-    {
-      "feature": "ELAC2 (60528)",
-      "mean_abs_shap": 0.000196754011116975,
-      "fold": 0
-    },
-    {
-      "feature": "ARHGAP44 (9912)",
-      "mean_abs_shap": 0.00018921569863145443,
+      "feature": "FXYD3 (5349)",
+      "mean_abs_shap": 0.002053069544210406,
       "fold": 0
     },
     {
       "feature": "GCKR (2646)",
-      "mean_abs_shap": 0.00018669652228775355,
+      "mean_abs_shap": 0.0014736431024771769,
       "fold": 0
     },
     {
-      "feature": "SYT1 (6857)",
-      "mean_abs_shap": 0.00018572019313187928,
+      "feature": "ISL1 (3670)",
+      "mean_abs_shap": 0.001265348243595802,
       "fold": 0
     },
     {
-      "feature": "ADGRA2 (25960)",
-      "mean_abs_shap": 0.00016785297921766455,
+      "feature": "MPND (84954)",
+      "mean_abs_shap": 0.0012602731712455047,
+      "fold": 0
+    },
+    {
+      "feature": "TLE2 (7089)",
+      "mean_abs_shap": 0.0011664716271142682,
+      "fold": 0
+    },
+    {
+      "feature": "KCNH2 (3757)",
+      "mean_abs_shap": 0.0009723319421808061,
+      "fold": 0
+    },
+    {
+      "feature": "RTF2 (51507)",
+      "mean_abs_shap": 0.0009509967322283954,
+      "fold": 0
+    },
+    {
+      "feature": "MTMR1 (8776)",
+      "mean_abs_shap": 0.0008859123717026847,
+      "fold": 0
+    },
+    {
+      "feature": "CMTM1 (113540)",
+      "mean_abs_shap": 0.0008839629078587723,
+      "fold": 0
+    },
+    {
+      "feature": "OXCT1 (5019)",
+      "mean_abs_shap": 0.0007343448608608243,
+      "fold": 0
+    },
+    {
+      "feature": "TRIB2 (28951)",
+      "mean_abs_shap": 0.0007051776892436188,
+      "fold": 0
+    },
+    {
+      "feature": "ACACB (32)",
+      "mean_abs_shap": 0.0006564625523022417,
+      "fold": 0
+    },
+    {
+      "feature": "SPTB (6710)",
+      "mean_abs_shap": 0.0005966230314848804,
+      "fold": 0
+    },
+    {
+      "feature": "DPF1 (8193)",
+      "mean_abs_shap": 0.0005913889038611514,
+      "fold": 0
+    },
+    {
+      "feature": "RFX3 (5991)",
+      "mean_abs_shap": 0.0005833988186314442,
+      "fold": 0
+    },
+    {
+      "feature": "NUP160 (23279)",
+      "mean_abs_shap": 0.0005717786905213098,
+      "fold": 0
+    },
+    {
+      "feature": "PAK3 (5063)",
+      "mean_abs_shap": 0.0005109007137798858,
+      "fold": 0
+    },
+    {
+      "feature": "KDM5D (8284)",
+      "mean_abs_shap": 0.00045678332130504317,
+      "fold": 0
+    },
+    {
+      "feature": "EDN1 (1906)",
+      "mean_abs_shap": 0.00041140243587062524,
+      "fold": 0
+    },
+    {
+      "feature": "SLC13A2 (9058)",
+      "mean_abs_shap": 0.00038525935307878094,
+      "fold": 0
+    },
+    {
+      "feature": "ITGA3 (3675)",
+      "mean_abs_shap": 0.0003714432480215065,
+      "fold": 0
+    },
+    {
+      "feature": "ACAP1 (9744)",
+      "mean_abs_shap": 0.0003574217229469784,
       "fold": 0
     }
   ]

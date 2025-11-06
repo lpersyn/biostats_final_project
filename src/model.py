@@ -6,7 +6,7 @@ import tqdm
 import time
 import os
 
-TEST_FOLD = 9
+TEST_FOLD = 4
 
 class LGBM_Model:
     def __init__(self, num_folds: int, data_dir:str="./data/train/", config:dict={}):

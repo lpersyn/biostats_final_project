@@ -1,173 +1,345 @@
-sample_id,true_lineage,predicted_lineage,predicted_fold_0,predicted_fold_1,predicted_fold_2,predicted_fold_3,predicted_fold_4,predicted_fold_5,predicted_fold_6,predicted_fold_7,predicted_fold_8
-CDS-Z1Gp8q,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
-CDS-ivFZxC,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
-CDS-JSTQob,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
-CDS-B0B1PI,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
-CDS-Igm444,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
-CDS-nVd1T3,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
-CDS-UGUDvA,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
-CDS-oRMK1L,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Esophagus/Stomach,Bowel,Bowel
-CDS-akupZh,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
-CDS-2HrGbX,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
-CDS-HGIe8M,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
-CDS-wsWPxR,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
-CDS-XFQ8ln,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
-CDS-L19Mb5,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
-CDS-OiPTUe,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-2puUOz,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-12aEEq,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-7fm9Do,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-RHlWpR,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-WJzlwg,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-61fP5C,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-TqLgJl,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Ovary/Fallopian Tube,Bladder/Urinary Tract,Ovary/Fallopian Tube,Bladder/Urinary Tract,Bladder/Urinary Tract
-CDS-0CqPRM,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Lung,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract
-CDS-RY0N8P,Bladder/Urinary Tract,Lung,Lung,Breast,Lung,Head and Neck,Lung,Lung,Head and Neck,Lung,Lung
-CDS-5x4be7,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-HibghH,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-qJ7COw,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Bowel,Lung
-CDS-gFfmYf,Lung,Lung,Lung,Lung,Lung,Lung,Biliary Tract,Lung,Lung,Lung,Biliary Tract
-CDS-mTbZ29,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-rBL8MO,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-pgFC3w,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-9KYBHI,Lung,Pancreas,Lung,Pancreas,Pancreas,Pancreas,Lung,Lung,Pancreas,Soft Tissue,Pancreas
-CDS-bvxGx1,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-56Ip6T,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-kZ0HGc,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
-CDS-1WkIXw,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
-CDS-IYeIi1,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast
-CDS-xxjdUw,Breast,CNS/Brain,Breast,Lung,CNS/Brain,Lung,Lung,CNS/Brain,Lung,Lung,CNS/Brain
-CDS-IBCchb,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast
-CDS-W2EIzv,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-47ALxg,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Esophagus/Stomach,Pancreas,Esophagus/Stomach,Pancreas
-CDS-sgaicS,Pancreas,Pancreas,Lung,Biliary Tract,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Lung
-CDS-Dxhx2T,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Biliary Tract,Pancreas
-CDS-cI1QyB,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas
-CDS-BGNY23,Pancreas,Biliary Tract,Pancreas,Biliary Tract,Pancreas,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Pancreas,Biliary Tract
-CDS-5xsctH,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-fEj097,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-XwU4Tq,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-ZCafN6,CNS/Brain,Lung,Lung,Biliary Tract,Lung,Lung,Thyroid,Thyroid,Lung,Soft Tissue,Thyroid
-CDS-HSpNpS,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
-CDS-zU3oxT,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
-CDS-I89BES,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
-CDS-MF3CAO,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
-CDS-PheqrX,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
-CDS-gMAKfG,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
-CDS-mLKhjj,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-BGtR3X,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone
-CDS-lC7vvw,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone
-CDS-9JVjU5,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone
-CDS-j4vWfH,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Soft Tissue,Ovary/Fallopian Tube,Soft Tissue,Ovary/Fallopian Tube,Lung,Soft Tissue,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Lung
-CDS-tFmKRS,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-Eb5W2B,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-0KXHWn,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-TACT6p,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-YujsNU,Thyroid,Lung,Thyroid,Lung,Lung,Thyroid,Lung,Thyroid,Lung,Ovary/Fallopian Tube,Lung
-CDS-n1R4NL,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-xE33y8,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
-CDS-o0IcZu,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-1xn5NM,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-bvbVw5,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
-CDS-EwPmDS,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
-CDS-ng9jOo,Myeloid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-lPxw5r,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
-CDS-H1DlZM,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
-CDS-VN5UD2,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
-CDS-e9r9Aq,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
-CDS-vAs6Hq,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Soft Tissue,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
-CDS-hQH2Cp,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
-CDS-bAy5wJ,Bone,Lung,CNS/Brain,Lung,Lung,Lung,Lung,Lung,CNS/Brain,Lung,CNS/Brain
-CDS-WG3B97,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone,Bone
-CDS-PRmKRO,Bone,Bone,Lung,Bone,Bone,Bone,Soft Tissue,Bone,Lung,Bone,Bone
-CDS-MCSAhl,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast
-CDS-IsLs2r,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast
-CDS-4nKCcr,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura
-CDS-gyyVs5,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura,Lung
-CDS-n7CqUB,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Soft Tissue,Fibroblast,Fibroblast
-CDS-QFDX8N,Prostate,Prostate,Prostate,Prostate,Prostate,Lung,Prostate,Prostate,Breast,Lung,Prostate
-CDS-2tsdyV,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Uterus,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Uterus,Ovary/Fallopian Tube,Ovary/Fallopian Tube
-CDS-uUP01E,Kidney,Soft Tissue,Soft Tissue,Soft Tissue,Kidney,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
-CDS-4sKBEm,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast
-CDS-PlJ2do,Breast,Lung,Lung,Lung,Bone,Soft Tissue,Lung,Bone,Lung,CNS/Brain,Lung
-CDS-dOxHND,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast,Breast
-CDS-CgEB6N,Breast,Breast,Breast,Breast,Breast,Lung,Breast,Breast,Cervix,Breast,Breast
-CDS-VklyFe,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
-CDS-qt6v2d,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
-CDS-y5Q37a,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-3cfdQW,Pancreas,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Lung,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach
-CDS-Hn7oWR,Fibroblast,Fibroblast,Bone,Soft Tissue,Bone,Soft Tissue,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast
-CDS-C968FM,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Lung,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract
-CDS-8nIRIO,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
-CDS-hj6C5v,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-AeysSv,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,Lung,CNS/Brain,CNS/Brain,Kidney,Ovary/Fallopian Tube,CNS/Brain,CNS/Brain
-CDS-AYLkFW,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-6dGbTE,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-JmpUEK,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
-CDS-Iz7JNB,Soft Tissue,Soft Tissue,Soft Tissue,CNS/Brain,Uterus,CNS/Brain,CNS/Brain,CNS/Brain,Soft Tissue,Ovary/Fallopian Tube,Soft Tissue
-CDS-8e0nyQ,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
-CDS-qoHI3w,Kidney,Kidney,Bladder/Urinary Tract,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
-CDS-F4nP71,Uterus,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
-CDS-WZlQPi,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus
-CDS-WFJDfE,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus
-CDS-K6Tup7,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Uterus,Ovary/Fallopian Tube
-CDS-65iYzF,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-1ZYAcf,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-RlJspK,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-WsC6sB,Lung,Lung,Lung,Lung,Esophagus/Stomach,Lung,Lung,Head and Neck,Lung,Esophagus/Stomach,Head and Neck
-CDS-010xbm,Lung,Lung,Head and Neck,Lung,Lung,Lung,Esophagus/Stomach,Lung,Lung,Lung,Head and Neck
-CDS-zYpKQj,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-vTYB6a,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-MmKp1E,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-o4tQ6c,Lung,Lung,Lung,Lung,Lung,Lung,Head and Neck,Lung,Breast,Lung,Lung
-CDS-ymJGfQ,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
-CDS-Pb2WAA,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
-CDS-QX9nhh,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
-CDS-tdjpc6,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
-CDS-ym7JKy,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
-CDS-yKuG54,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
-CDS-RprFAl,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Lung,Biliary Tract,Lung,Biliary Tract,Biliary Tract,Biliary Tract
-CDS-yGXgd6,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Lung,Biliary Tract,Biliary Tract
-CDS-20ABIJ,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Pancreas,Pancreas,Esophagus/Stomach,Pancreas,Pancreas,Esophagus/Stomach
-CDS-89YsMB,Esophagus/Stomach,Pancreas,Esophagus/Stomach,Esophagus/Stomach,Pancreas,Pancreas,Ovary/Fallopian Tube,Esophagus/Stomach,Pancreas,Pancreas,Esophagus/Stomach
-CDS-PeTUl0,Liver,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-itOI4o,Liver,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Liver,Lung,Lung
-CDS-iyZyjs,Esophagus/Stomach,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-1laqsK,Esophagus/Stomach,Esophagus/Stomach,Lung,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach
-CDS-DvAwzX,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach
-CDS-LpmW7y,Esophagus/Stomach,Bowel,Bowel,Bowel,Esophagus/Stomach,Bowel,Esophagus/Stomach,Bowel,Bowel,Bowel,Esophagus/Stomach
-CDS-2KUV3a,Esophagus/Stomach,Uterus,Uterus,Bowel,Uterus,Esophagus/Stomach,Lung,Uterus,Esophagus/Stomach,Uterus,Liver
-CDS-KkavlE,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Lung,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Bowel
-CDS-VW4IHA,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
-CDS-KUSLrA,Esophagus/Stomach,Lung,Lung,Lung,Esophagus/Stomach,Lung,Lung,Lung,Lung,Lung,Head and Neck
-CDS-PXWNAH,Ovary/Fallopian Tube,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Thyroid,Skin,Skin,Soft Tissue
-CDS-WfvCAk,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Kidney,Ovary/Fallopian Tube,Kidney,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Kidney,Kidney
-CDS-kJY3Ii,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-q8yjmB,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-aEHbCV,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-sLY9Ku,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-n1SxWZ,Thyroid,Thyroid,Thyroid,Lung,Ovary/Fallopian Tube,Thyroid,Thyroid,Thyroid,Thyroid,Lung,Ovary/Fallopian Tube
-CDS-vKfDWg,Cervix,Cervix,Cervix,Cervix,Cervix,Lung,Lung,Cervix,Cervix,Cervix,Cervix
-CDS-yl1fCt,Cervix,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Esophagus/Stomach,Head and Neck,Head and Neck,Esophagus/Stomach,Head and Neck,Head and Neck
-CDS-hdX3V5,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
-CDS-j7LbWZ,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-S5wX06,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-Ge8dzk,Liver,Liver,Lung,Testis,Uterus,Testis,Liver,Uterus,Liver,Esophagus/Stomach,Lung
-CDS-Fauu92,Soft Tissue,Soft Tissue,Soft Tissue,CNS/Brain,CNS/Brain,Soft Tissue,Soft Tissue,CNS/Brain,Soft Tissue,Soft Tissue,Soft Tissue
-CDS-W3tWPu,Soft Tissue,Peripheral Nervous System,Peripheral Nervous System,Bone,Peripheral Nervous System,CNS/Brain,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
-CDS-27Pw7G,Uterus,Lung,Lung,Lung,Lung,Uterus,Lung,Lung,Lung,Lung,Lung
-CDS-zmRkou,Bladder/Urinary Tract,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung,Lung
-CDS-qWtV8R,Soft Tissue,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-KYE9ja,Skin,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
-CDS-8tvLDJ,Kidney,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
-CDS-N0wOoW,Testis,Bone,CNS/Brain,Bone,Bone,Bone,Bone,Soft Tissue,Kidney,Testis,Soft Tissue
-CDS-iOrK9J,Eye,Eye,Eye,Skin,Eye,Eye,Skin,Eye,Skin,Skin,Eye
-CDS-o0ep2f,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-6Y60zL,Soft Tissue,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin,Skin
-CDS-IaSy39,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
-CDS-4w7bPR,Biliary Tract,Lung,Lung,Biliary Tract,Lung,Biliary Tract,Lung,Biliary Tract,Lung,Lung,Lung
-CDS-b9rO8A,Eye,Eye,Eye,Eye,Eye,Eye,Eye,Eye,Eye,Eye,Eye
-CDS-rqkBOD,Biliary Tract,Pancreas,Pancreas,Pancreas,Biliary Tract,Pancreas,Pancreas,Biliary Tract,Biliary Tract,Pancreas,Pancreas
-CDS-uklIqs,Skin,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
-CDS-hfb2X3,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
-CDS-rzV1rs,Lung,Soft Tissue,CNS/Brain,CNS/Brain,Fibroblast,Soft Tissue,Bladder/Urinary Tract,Fibroblast,Soft Tissue,Soft Tissue,Soft Tissue
+sample_id,true_lineage,predicted_lineage,predicted_fold_0,predicted_fold_1,predicted_fold_2,predicted_fold_3
+CDS-PP0aCP,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-Z1Gp8q,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-F8ZB3Y,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-mSP1K9,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-ivFZxC,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Uterus,Ovary/Fallopian Tube,Uterus
+CDS-JSTQob,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-B0B1PI,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-Igm444,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-nVd1T3,Bowel,Bowel,Bowel,Ovary/Fallopian Tube,Bowel,Bowel
+CDS-C6HKhK,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-UGUDvA,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-VrDVLb,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-oRMK1L,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-v3Bp3h,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-akupZh,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-tUYHoc,Bowel,Bowel,Esophagus/Stomach,Bowel,Bowel,Esophagus/Stomach
+CDS-8KvIWP,Bowel,Bowel,Bowel,Esophagus/Stomach,Bowel,Bowel
+CDS-2HrGbX,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-trJFrA,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-HGIe8M,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-3Mba0S,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-imGiJa,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-wsWPxR,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-XFQ8ln,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-NUS68d,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-L19Mb5,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-NVVPN2,Myeloid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Myeloid
+CDS-AmId77,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-RuNRww,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-OiPTUe,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-ekXHpZ,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-SYO7e7,Skin,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-2puUOz,Skin,Skin,Skin,CNS/Brain,Skin,Skin
+CDS-rKR8HJ,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-12aEEq,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-YfNYy2,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-AGXTzS,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-rOerXt,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-7fm9Do,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-RHlWpR,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-WJzlwg,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-au7ddg,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-E2iBiA,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-61fP5C,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-I4rtZ9,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-SdYhEt,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-Actxtc,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-TqLgJl,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract
+CDS-0CqPRM,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Lung,Bladder/Urinary Tract
+CDS-ejlAKO,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Bladder/Urinary Tract,Lung,Bladder/Urinary Tract
+CDS-TMOrmK,Bladder/Urinary Tract,Esophagus/Stomach,Uterus,Esophagus/Stomach,Esophagus/Stomach,Uterus
+CDS-7NtJpp,Bladder/Urinary Tract,Kidney,Kidney,Kidney,Kidney,Kidney
+CDS-RY0N8P,Bladder/Urinary Tract,Lung,Lung,Lung,Lung,Lung
+CDS-Ryx5NC,Bladder/Urinary Tract,Bladder/Urinary Tract,Lung,Bladder/Urinary Tract,Uterus,Bladder/Urinary Tract
+CDS-uCADVC,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-5x4be7,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-HibghH,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-GYczld,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-qJ7COw,Lung,Lung,Lung,Lung,Lung,Bowel
+CDS-gFfmYf,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-mTbZ29,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-rBL8MO,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-kFv9xI,Lung,Lung,Lung,Lung,Lung,Esophagus/Stomach
+CDS-pgFC3w,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-JLX6K1,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-9KYBHI,Lung,Pancreas,Lung,Pancreas,Ovary/Fallopian Tube,Lung
+CDS-bvxGx1,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-zFnl2F,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-56Ip6T,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-kZ0HGc,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
+CDS-1WkIXw,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
+CDS-YpSw2C,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
+CDS-VGyWol,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
+CDS-IYeIi1,Breast,Breast,Breast,Breast,Breast,Breast
+CDS-xxjdUw,Breast,Lung,Breast,CNS/Brain,CNS/Brain,Lung
+CDS-IBCchb,Breast,Breast,Breast,Breast,Breast,Breast
+CDS-JjW9ss,Breast,Breast,Breast,Breast,Breast,Breast
+CDS-2O61Rg,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-rl2zjr,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-f8kECh,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-W2EIzv,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-ng0wY9,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-HYJ2Fr,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-raJ5tU,Pancreas,Lung,Lung,Lung,Lung,Lung
+CDS-JU8YGP,Pancreas,Pancreas,Esophagus/Stomach,Pancreas,Pancreas,Pancreas
+CDS-hjiiZf,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas
+CDS-N5VrW8,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas
+CDS-47ALxg,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Esophagus/Stomach
+CDS-sgaicS,Pancreas,Pancreas,Pancreas,Biliary Tract,Pancreas,Bladder/Urinary Tract
+CDS-zDRoD5,Pancreas,Pancreas,Pancreas,Lung,Pancreas,Lung
+CDS-Dxhx2T,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas
+CDS-cI1QyB,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas
+CDS-vls2Uk,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas
+CDS-BGNY23,Pancreas,Pancreas,Pancreas,Biliary Tract,Pancreas,Pancreas
+CDS-5xsctH,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-GAvfsF,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-fEj097,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-XwU4Tq,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-ZCafN6,CNS/Brain,Bone,Head and Neck,Bone,CNS/Brain,Lung
+CDS-HSpNpS,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-zkgCPO,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-zU3oxT,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-I89BES,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-MF3CAO,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-PheqrX,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-7S8kIh,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,Lung,CNS/Brain
+CDS-gMAKfG,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-8Fgl8i,CNS/Brain,Bone,Bone,Bone,Bone,Bone
+CDS-iXEsSF,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-e68nCH,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-BgPD0n,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-3qLRGs,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-9JVCGK,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-mLKhjj,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-kv9MeK,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-te184v,Bone,Bone,Bone,Bone,Bone,Bone
+CDS-EbrRRa,Bone,Bone,Bone,Bone,Bone,Bone
+CDS-YzcrsA,Bone,Bone,Bone,Bone,Bone,Bone
+CDS-BGtR3X,Bone,Bone,Bone,Bone,Bone,Bone
+CDS-fsiMDW,Bone,Bone,Bone,Bone,Bone,Bone
+CDS-k98yXF,Bone,Bone,Bone,Bone,Bone,Bone
+CDS-lC7vvw,Bone,Bone,Bone,Bone,Bone,Bone
+CDS-9JVjU5,Bone,Bone,Bone,Bone,Bone,Bone
+CDS-FFtZ3f,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-5aziCi,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast
+CDS-3zJEef,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast
+CDS-hmWxKW,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast
+CDS-j8QQsZ,Breast,Breast,Breast,Breast,Breast,Breast
+CDS-bSKl50,Breast,Breast,Breast,Breast,Breast,Breast
+CDS-MqiJ97,Breast,Breast,Breast,Breast,Breast,Breast
+CDS-zVB5Xu,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
+CDS-Kpx5oy,Esophagus/Stomach,Pancreas,Lung,Pancreas,Pancreas,Ovary/Fallopian Tube
+CDS-wBUuHs,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Lung,Esophagus/Stomach
+CDS-jlrsGk,Esophagus/Stomach,Bowel,Esophagus/Stomach,Esophagus/Stomach,Bowel,Bowel
+CDS-D18Uib,Esophagus/Stomach,Bowel,Bowel,Bowel,Bowel,Esophagus/Stomach
+CDS-zn1Rjq,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Lung,Esophagus/Stomach,Esophagus/Stomach
+CDS-gst6tr,Ovary/Fallopian Tube,Lung,Lung,Lung,Lung,Lung
+CDS-j4vWfH,Ovary/Fallopian Tube,Lung,Soft Tissue,Lung,Lung,CNS/Brain
+CDS-tFmKRS,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-Eb5W2B,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-0KXHWn,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-6AtwZF,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-lkLy34,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-le3GuE,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-PLrZx3,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-TACT6p,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-DTeo69,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-FkSe8C,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-YujsNU,Thyroid,Lung,Lung,Lung,Lung,Kidney
+CDS-nwsye3,Thyroid,Soft Tissue,Skin,Soft Tissue,Soft Tissue,Soft Tissue
+CDS-n1R4NL,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-xE33y8,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-o0IcZu,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-xgNtIy,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-slxBP3,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-1xn5NM,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-nDIQoX,Fibroblast,Bone,Bone,Fibroblast,Bone,Fibroblast
+CDS-bvbVw5,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-EwPmDS,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-ng9jOo,Myeloid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-lPxw5r,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-H1DlZM,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
+CDS-VN5UD2,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
+CDS-quTwbh,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
+CDS-XuVqrR,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
+CDS-ba8Ofn,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
+CDS-e9r9Aq,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
+CDS-pspc0Y,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
+CDS-vAs6Hq,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Soft Tissue,Peripheral Nervous System
+CDS-hQH2Cp,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System,Peripheral Nervous System
+CDS-9DyJSt,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid,Myeloid
+CDS-dwKKwU,Bone,Soft Tissue,Soft Tissue,Soft Tissue,Skin,Testis
+CDS-PiysQG,Bone,Fibroblast,Head and Neck,Soft Tissue,Soft Tissue,Fibroblast
+CDS-bAy5wJ,Bone,CNS/Brain,CNS/Brain,Lung,Esophagus/Stomach,CNS/Brain
+CDS-WG3B97,Bone,Bone,Bone,Bone,Bone,Bone
+CDS-PRmKRO,Bone,Lung,Lung,Bone,Lung,Soft Tissue
+CDS-MCSAhl,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast
+CDS-IsLs2r,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast
+CDS-4nKCcr,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura
+CDS-lOal6V,Pleura,Pleura,Pleura,Pleura,Pleura,Pleura
+CDS-gyyVs5,Pleura,Skin,Pleura,Ovary/Fallopian Tube,CNS/Brain,Skin
+CDS-n7CqUB,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast,Fibroblast
+CDS-ywzypm,Prostate,Lung,Lung,Lung,Lung,Lung
+CDS-QFDX8N,Prostate,Breast,Prostate,Lung,Breast,Lung
+CDS-bDAGR0,Prostate,Lung,Lung,Lung,Lung,Lung
+CDS-2tsdyV,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Uterus,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-6LCkXL,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-lnb9Nh,Pleura,Lung,Lung,Lung,Lung,Lung
+CDS-uUP01E,Kidney,Soft Tissue,Kidney,Soft Tissue,Soft Tissue,Soft Tissue
+CDS-4sKBEm,Breast,Breast,Breast,Breast,Breast,Breast
+CDS-n9A7Tu,Breast,Breast,Breast,Breast,Breast,Breast
+CDS-PlJ2do,Breast,Bone,CNS/Brain,Lung,Bone,Bone
+CDS-dOxHND,Breast,Breast,Breast,Breast,Breast,Breast
+CDS-xfgxjz,Breast,Breast,Breast,Breast,Breast,Biliary Tract
+CDS-CgEB6N,Breast,Breast,Breast,Breast,Breast,Bone
+CDS-VklyFe,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
+CDS-7X7vNY,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
+CDS-qt6v2d,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
+CDS-y5Q37a,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-3cfdQW,Pancreas,Esophagus/Stomach,Lung,Lung,Esophagus/Stomach,Esophagus/Stomach
+CDS-Hn7oWR,Fibroblast,Fibroblast,Fibroblast,Bone,Fibroblast,Fibroblast
+CDS-C968FM,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Lung,Biliary Tract
+CDS-zESDlE,Soft Tissue,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Kidney,Ovary/Fallopian Tube
+CDS-8nIRIO,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
+CDS-vi6XWm,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
+CDS-hj6C5v,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-AeysSv,CNS/Brain,CNS/Brain,Kidney,Lung,Kidney,CNS/Brain
+CDS-AYLkFW,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-6dGbTE,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-AlMMvF,Soft Tissue,Soft Tissue,Soft Tissue,CNS/Brain,Soft Tissue,Soft Tissue
+CDS-JmpUEK,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
+CDS-Iz7JNB,Soft Tissue,CNS/Brain,Soft Tissue,CNS/Brain,CNS/Brain,Soft Tissue
+CDS-6i5BUw,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
+CDS-8e0nyQ,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
+CDS-EFWULO,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
+CDS-qoHI3w,Kidney,Kidney,Kidney,Kidney,Kidney,Kidney
+CDS-63ltLu,Soft Tissue,Soft Tissue,Kidney,Soft Tissue,Kidney,Soft Tissue
+CDS-UFAuQl,Soft Tissue,Kidney,Kidney,Soft Tissue,Kidney,Kidney
+CDS-F4nP71,Uterus,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-GstAzd,Uterus,Lung,Lung,Lung,Lung,Lung
+CDS-WZlQPi,Uterus,Uterus,Uterus,Uterus,Uterus,Ovary/Fallopian Tube
+CDS-WFJDfE,Uterus,Uterus,Uterus,Uterus,Uterus,Uterus
+CDS-K6Tup7,Uterus,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Uterus,Uterus
+CDS-2UzlQQ,Thyroid,Thyroid,Thyroid,CNS/Brain,Thyroid,Head and Neck
+CDS-BlD4CJ,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-65iYzF,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-6mRinm,Lung,Lung,Lung,Esophagus/Stomach,Lung,Lung
+CDS-1ZYAcf,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-RlJspK,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-ZIM53z,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-WsC6sB,Lung,Lung,Lung,Lung,Head and Neck,Lung
+CDS-010xbm,Lung,Lung,Head and Neck,Head and Neck,Esophagus/Stomach,Lung
+CDS-nnHNDr,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-LzhC9x,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-FDJfOM,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-jwGJMd,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-dLv6LS,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-1GKN1q,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-zYpKQj,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-57hTZY,Lung,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-RdzG4X,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-vTYB6a,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-UaNJph,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-B8floZ,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-MmKp1E,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-o4tQ6c,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-ymJGfQ,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-Pb2WAA,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-QX9nhh,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-IBrjAY,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-RnilvN,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-DIGdOp,Head and Neck,Head and Neck,Head and Neck,Esophagus/Stomach,Head and Neck,Head and Neck
+CDS-8cg8bA,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-S5mGhL,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-tdjpc6,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-ym7JKy,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-gm1ph3,Head and Neck,Head and Neck,Cervix,Head and Neck,Head and Neck,Head and Neck
+CDS-yKuG54,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-N2y4zr,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-lsWUK2,Head and Neck,Esophagus/Stomach,Head and Neck,Lung,Lung,Esophagus/Stomach
+CDS-RprFAl,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract
+CDS-fjy8oH,Biliary Tract,Breast,Biliary Tract,Breast,Breast,Breast
+CDS-yGXgd6,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract
+CDS-zsp0NA,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Biliary Tract,Lung
+CDS-20ABIJ,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach
+CDS-89YsMB,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Pancreas
+CDS-EHpHgd,Esophagus/Stomach,Soft Tissue,Soft Tissue,Bone,Soft Tissue,Soft Tissue
+CDS-PeTUl0,Liver,CNS/Brain,Lung,CNS/Brain,CNS/Brain,Kidney
+CDS-zSNd0i,Liver,Lung,Lung,Lung,Lung,Liver
+CDS-oodJXt,Liver,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-itOI4o,Liver,Lung,Lung,Lung,Lung,Lung
+CDS-iyZyjs,Esophagus/Stomach,Lung,Lung,Lung,Lung,Lung
+CDS-1laqsK,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Lung,Esophagus/Stomach
+CDS-DvAwzX,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach
+CDS-LpmW7y,Esophagus/Stomach,Esophagus/Stomach,Bowel,Esophagus/Stomach,Bowel,Esophagus/Stomach
+CDS-2KUV3a,Esophagus/Stomach,Liver,Lung,Lung,Liver,Liver
+CDS-KkavlE,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach
+CDS-FrWzjT,Biliary Tract,Bowel,Bowel,Bowel,Esophagus/Stomach,Esophagus/Stomach
+CDS-0OYkPE,Biliary Tract,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Pancreas,Esophagus/Stomach
+CDS-PDnFgQ,CNS/Brain,CNS/Brain,Bone,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-KwN3i1,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-0EOjym,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-VW4IHA,Bowel,Bowel,Bowel,Bowel,Bowel,Bowel
+CDS-bqX2CT,Uterus,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-wMpD3i,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Head and Neck,Head and Neck
+CDS-KUSLrA,Esophagus/Stomach,Lung,Lung,Lung,Lung,Lung
+CDS-DoX4iK,Ovary/Fallopian Tube,Kidney,Kidney,Kidney,Kidney,Ovary/Fallopian Tube
+CDS-yQ8Rft,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Uterus,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-PXWNAH,Ovary/Fallopian Tube,Skin,Soft Tissue,Skin,Skin,Skin
+CDS-WfvCAk,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-QeSzqA,Breast,Breast,Breast,Breast,Breast,Breast
+CDS-fQdEBQ,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-Qq01dd,Uterus,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube
+CDS-kJY3Ii,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-q8yjmB,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-aEHbCV,Skin,Skin,Skin,Skin,Skin,Skin
+CDS-sLY9Ku,Lung,Lung,Lung,Lung,Lung,Lung
+CDS-n1SxWZ,Thyroid,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Ovary/Fallopian Tube,Thyroid,Thyroid
+CDS-vKfDWg,Cervix,Cervix,Cervix,Lung,Lung,Cervix
+CDS-Ac5EHV,Cervix,Cervix,Cervix,Lung,Cervix,Skin
+CDS-yl1fCt,Cervix,Cervix,Head and Neck,Cervix,Head and Neck,Cervix
+CDS-hdX3V5,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-j7LbWZ,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-S5wX06,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-sSPIRU,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-Ge8dzk,Liver,Lung,Lung,Lung,Liver,Lung
+CDS-IWm8ET,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach,Esophagus/Stomach
+CDS-Fauu92,Soft Tissue,Soft Tissue,CNS/Brain,Soft Tissue,Soft Tissue,Soft Tissue
+CDS-W3tWPu,Soft Tissue,Peripheral Nervous System,CNS/Brain,CNS/Brain,Peripheral Nervous System,Peripheral Nervous System
+CDS-0ZhPbc,Uterus,Soft Tissue,CNS/Brain,Soft Tissue,Soft Tissue,Soft Tissue
+CDS-27Pw7G,Uterus,Lung,Lung,Esophagus/Stomach,Lung,Uterus
+CDS-zmRkou,Bladder/Urinary Tract,Lung,Lung,Lung,Lung,Lung
+CDS-nnLiYQ,CNS/Brain,Skin,Skin,Skin,Pleura,Soft Tissue
+CDS-OdOkKq,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-7pOtWh,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-3VhBbc,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-y06Zy9,Lung,Lung,Lung,Lung,Head and Neck,Lung
+CDS-qWtV8R,Soft Tissue,Skin,Skin,Skin,Skin,Skin
+CDS-KYE9ja,Skin,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-8tvLDJ,Kidney,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue,Soft Tissue
+CDS-N0wOoW,Testis,Soft Tissue,CNS/Brain,Bone,Soft Tissue,Soft Tissue
+CDS-mP54Sj,Eye,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-iOrK9J,Eye,Eye,Skin,Eye,Eye,Eye
+CDS-NBB9bU,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-Hkp3eG,Testis,Testis,Testis,Testis,Lung,Testis
+CDS-Og40uk,Cervix,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Head and Neck
+CDS-iCwQxr,Thyroid,Head and Neck,Head and Neck,Head and Neck,Head and Neck,Ovary/Fallopian Tube
+CDS-o0ep2f,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-BvzEfR,Soft Tissue,Soft Tissue,Skin,Skin,Soft Tissue,Soft Tissue
+CDS-6Y60zL,Soft Tissue,Skin,Skin,Skin,Skin,Skin
+CDS-0QOXsy,Soft Tissue,Soft Tissue,Soft Tissue,Peripheral Nervous System,Soft Tissue,Skin
+CDS-IaSy39,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-4w7bPR,Biliary Tract,Lung,Lung,Lung,Lung,Lung
+CDS-jrA2Sc,Myeloid,Lymphoid,Lymphoid,Lymphoid,Lymphoid,Lymphoid
+CDS-rg2Upb,Eye,Eye,Eye,Eye,Eye,Eye
+CDS-b9rO8A,Eye,Eye,Eye,Eye,Eye,Eye
+CDS-ZF2ALV,Skin,Skin,Skin,Soft Tissue,Skin,Skin
+CDS-ZV6IQW,Skin,Skin,Skin,Peripheral Nervous System,Skin,Peripheral Nervous System
+CDS-rqkBOD,Biliary Tract,Pancreas,Pancreas,Pancreas,Pancreas,Pancreas
+CDS-uklIqs,Skin,Soft Tissue,Soft Tissue,Fibroblast,Soft Tissue,Soft Tissue
+CDS-hfb2X3,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain,CNS/Brain
+CDS-OQbsnw,CNS/Brain,Pancreas,CNS/Brain,Lung,Lung,Pancreas
+CDS-rzV1rs,Lung,Soft Tissue,Head and Neck,Bone,Soft Tissue,Soft Tissue
+CDS-xszVVB,Liver,Lung,Lung,Lung,Lung,Lung

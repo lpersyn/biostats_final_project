@@ -10,7 +10,7 @@ if __name__ == "__main__":
     parser.add_argument("-X", "--features_path", type=str, help="Path to features CSV file.")
     parser.add_argument("-y", "--labels_path", type=str, help="Path to labels CSV file.")
     parser.add_argument("-o", "--output_dir", type=str, help="Output directory for folds.", default="./data/train/")
-    parser.add_argument("--num_folds", type=int, default=10, help="Number of folds to create.")
+    parser.add_argument("--num_folds", type=int, default=5, help="Number of folds to create.")
     args = parser.parse_args()
 
     X = pd.read_csv(args.features_path, index_col=0)

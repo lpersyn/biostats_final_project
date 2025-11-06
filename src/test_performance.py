@@ -128,11 +128,14 @@ def _infer_categories(y_true: pd.Series, fallback: Iterable[str]) -> List[str]:
 
 
 
+
 def _plot_accuracy_summary(
 	mean_accuracy_by_lineage: pd.DataFrame,
 	per_fold_accuracy: pd.DataFrame,
 	overall_accuracy: float,
-	output_path: Path,
+	lineage_plot_path: Path,
+	per_fold_overall_accuracy: Dict[str, float],
+	fold_plot_path: Path,
 ) -> None:
 	if mean_accuracy_by_lineage.empty:
 		return
@@ -142,8 +145,7 @@ def _plot_accuracy_summary(
 		lambda row: f"{row['Lineage']} ({int(row['support'])})", axis=1
 	)
 
-	fig, ax = plt.subplots(figsize=(10, max(4, len(ordered) * 0.5)))
-
+	# Lineage accuracy distribution box plot
 	box_data = []
 	for lineage in ordered["Lineage"]:
 		lineage_data = per_fold_accuracy[per_fold_accuracy["Lineage"] == lineage]
@@ -151,7 +153,9 @@ def _plot_accuracy_summary(
 			box_data.append([])
 		else:
 			box_data.append(lineage_data["accuracy"].to_numpy())
-	boxplot = ax.boxplot(
+
+	fig_box, ax_box = plt.subplots(figsize=(10, max(4, len(ordered) * 0.5)))
+	boxplot = ax_box.boxplot(
 		box_data,
 		vert=False,
 		tick_labels=list(labels_with_support),
@@ -165,7 +169,7 @@ def _plot_accuracy_summary(
 
 	mean_points = ordered["mean_fold_accuracy"].to_numpy()
 	y_positions = np.arange(1, len(ordered) + 1)
-	ax.scatter(
+	ax_box.scatter(
 		mean_points,
 		y_positions,
 		s=55,
@@ -175,11 +179,11 @@ def _plot_accuracy_summary(
 		zorder=4,
 	)
 
-	for i, bp in enumerate(boxplot["boxes" ]):
+	for bp in boxplot["boxes"]:
 		bp.set_edgecolor("#2A4E6C")
 		bp.set_linewidth(1.2)
 
-	ax.axvline(
+	ax_box.axvline(
 		overall_accuracy,
 		color="#DD8452",
 		linestyle="--",
@@ -187,14 +191,44 @@ def _plot_accuracy_summary(
 		label=f"Ensemble overall: {overall_accuracy:.3f}",
 	)
 
-	ax.set_xlabel("Accuracy")
-	ax.set_title("Lineage accuracy distribution across folds")
-	ax.set_xlim(0, 1)
-	ax.set_ylabel("Lineage")
-	ax.legend(loc="lower right", fontsize="small", frameon=True)
+	ax_box.set_xlabel("Accuracy")
+	ax_box.set_title("Lineage accuracy distribution across folds")
+	ax_box.set_xlim(0, 1)
+	ax_box.set_ylabel("Lineage")
+	ax_box.legend(loc="lower right", fontsize="small", frameon=True)
 	plt.tight_layout()
-	fig.savefig(output_path, bbox_inches="tight")
-	plt.close(fig)
+	fig_box.savefig(lineage_plot_path, bbox_inches="tight")
+	plt.close(fig_box)
+
+	# Overall accuracy by fold bar chart
+	if per_fold_overall_accuracy:
+		sorted_folds = sorted(per_fold_overall_accuracy.items(), key=lambda item: int(item[0]))
+		fold_labels = [f"Fold {fold}" for fold, _ in sorted_folds]
+		fold_values = [value for _, value in sorted_folds]
+
+		fig_bar, ax_bar = plt.subplots(figsize=(max(6, len(sorted_folds) * 1.2), 4))
+		ax_bar.bar(
+			np.arange(len(sorted_folds)),
+			fold_values,
+			color="#55A868",
+			alpha=0.75,
+		)
+		ax_bar.axhline(
+			overall_accuracy,
+			color="#DD8452",
+			linestyle="--",
+			linewidth=2,
+		    label=f"Ensemble overall: {overall_accuracy:.3f}",
+		)
+		ax_bar.set_xticks(np.arange(len(sorted_folds)))
+		ax_bar.set_xticklabels(fold_labels, rotation=45, ha="right")
+		ax_bar.set_ylim(0, 1)
+		ax_bar.set_ylabel("Accuracy")
+		ax_bar.set_title("Overall accuracy by fold")
+		ax_bar.legend(loc="upper right", fontsize="small", frameon=True)
+		plt.tight_layout()
+		fig_bar.savefig(fold_plot_path, bbox_inches="tight")
+		plt.close(fig_bar)
 
 
 def _prepare_confusion_lineages(arg: Optional[str]) -> Optional[List[str]]:
@@ -358,8 +392,16 @@ def main() -> None:
 	with metrics_path.open("w", encoding="utf-8") as f:
 		json.dump(metrics_summary, f, indent=2)
 
-	accuracy_plot_path = output_dir / "accuracy_by_lineage.png"
-	_plot_accuracy_summary(accuracy_summary, per_fold_accuracy, overall_accuracy, accuracy_plot_path)
+	accuracy_box_plot_path = output_dir / "accuracy_by_lineage.png"
+	fold_accuracy_plot_path = output_dir / "accuracy_by_fold.png"
+	_plot_accuracy_summary(
+		accuracy_summary,
+		per_fold_accuracy,
+		overall_accuracy,
+		accuracy_box_plot_path,
+		per_fold_overall_accuracy,
+		fold_accuracy_plot_path,
+	)
 
 	lineages_for_confusion = _prepare_confusion_lineages(args.confusion_lineages)
 	if lineages_for_confusion is not None:

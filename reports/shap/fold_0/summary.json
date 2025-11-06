@@ -1,132 +1,132 @@
 {
   "fold": 0,
   "num_samples": 100,
-  "num_features": 1921,
+  "num_features": 19215,
   "expected_values": null,
   "top_features": [
     {
-      "feature": "PAX8 (7849)",
-      "mean_abs_shap": 0.0012630564607461795,
+      "feature": "CPNE3 (8895)",
+      "mean_abs_shap": 0.001140645883090044,
       "fold": 0
     },
     {
-      "feature": "PTPN6 (5777)",
-      "mean_abs_shap": 0.0009599450688427436,
+      "feature": "NEBL (10529)",
+      "mean_abs_shap": 0.0010599029076058615,
       "fold": 0
     },
     {
-      "feature": "FKBP9 (11328)",
-      "mean_abs_shap": 0.0008826293939301185,
+      "feature": "FGFR1 (2260)",
+      "mean_abs_shap": 0.0009569981899507382,
       "fold": 0
     },
     {
-      "feature": "FOXA1 (3169)",
-      "mean_abs_shap": 0.0008783374325184286,
+      "feature": "GAL (51083)",
+      "mean_abs_shap": 0.0008932224343454056,
       "fold": 0
     },
     {
-      "feature": "SPN (6693)",
-      "mean_abs_shap": 0.0008494579039459327,
+      "feature": "BPIFB2 (80341)",
+      "mean_abs_shap": 0.0007197684020217171,
       "fold": 0
     },
     {
-      "feature": "SOX10 (6663)",
-      "mean_abs_shap": 0.000840634681400759,
+      "feature": "RUNX3 (864)",
+      "mean_abs_shap": 0.0005321963413772713,
       "fold": 0
     },
     {
-      "feature": "RNF212 (285498)",
-      "mean_abs_shap": 0.0008154300015891133,
+      "feature": "PRDM1 (639)",
+      "mean_abs_shap": 0.0004936976142645827,
       "fold": 0
     },
     {
-      "feature": "SLC35D2 (11046)",
-      "mean_abs_shap": 0.0007512590600497647,
+      "feature": "RAB21 (23011)",
+      "mean_abs_shap": 0.0004556920555246327,
       "fold": 0
     },
     {
-      "feature": "C2orf74 (339804)",
-      "mean_abs_shap": 0.0007219097039063045,
+      "feature": "TSPAN6 (7105)",
+      "mean_abs_shap": 0.00041118902896783584,
       "fold": 0
     },
     {
-      "feature": "PARVA (55742)",
-      "mean_abs_shap": 0.0007046193124260246,
+      "feature": "TESC (54997)",
+      "mean_abs_shap": 0.00040129803369886875,
       "fold": 0
     },
     {
-      "feature": "IFFO1 (25900)",
-      "mean_abs_shap": 0.0006985016074984715,
+      "feature": "UTS2 (10911)",
+      "mean_abs_shap": 0.00034281270322885504,
       "fold": 0
     },
     {
-      "feature": "EFHD1 (80303)",
-      "mean_abs_shap": 0.0005830608235994145,
+      "feature": "CXCL2 (2920)",
+      "mean_abs_shap": 0.0002899481730922097,
       "fold": 0
     },
     {
-      "feature": "CYBA (1535)",
-      "mean_abs_shap": 0.0005492717517870231,
+      "feature": "HEBP1 (50865)",
+      "mean_abs_shap": 0.0002895520665430609,
       "fold": 0
     },
     {
-      "feature": "ARHGEF6 (9459)",
-      "mean_abs_shap": 0.0005392910346091674,
+      "feature": "KCNAB2 (8514)",
+      "mean_abs_shap": 0.0002861420858961716,
       "fold": 0
     },
     {
-      "feature": "IRF4 (3662)",
-      "mean_abs_shap": 0.0005198495322738065,
+      "feature": "HDHD5 (27440)",
+      "mean_abs_shap": 0.00025372940537414117,
       "fold": 0
     },
     {
-      "feature": "XAGE1A (653220)",
-      "mean_abs_shap": 0.0005041379468692228,
+      "feature": "RCN1 (5954)",
+      "mean_abs_shap": 0.0002456389052627174,
       "fold": 0
     },
     {
-      "feature": "LYL1 (4066)",
-      "mean_abs_shap": 0.000476547079819498,
+      "feature": "SIDT1 (54847)",
+      "mean_abs_shap": 0.00023471534706772908,
       "fold": 0
     },
     {
-      "feature": "LTBR (4055)",
-      "mean_abs_shap": 0.00041195189574184287,
+      "feature": "ACTR6 (64431)",
+      "mean_abs_shap": 0.0002215997863397001,
       "fold": 0
     },
     {
-      "feature": "HOXD8 (3234)",
-      "mean_abs_shap": 0.00040047626672706473,
+      "feature": "SLC4A11 (83959)",
+      "mean_abs_shap": 0.00021511925920518973,
       "fold": 0
     },
     {
-      "feature": "CYB561 (1534)",
-      "mean_abs_shap": 0.00040041027005877913,
+      "feature": "RNF10 (9921)",
+      "mean_abs_shap": 0.00020427908088212847,
       "fold": 0
     },
     {
-      "feature": "MGP (4256)",
-      "mean_abs_shap": 0.0003930398742981431,
+      "feature": "ELAC2 (60528)",
+      "mean_abs_shap": 0.000196754011116975,
       "fold": 0
     },
     {
-      "feature": "IKZF1 (10320)",
-      "mean_abs_shap": 0.00038481420573809456,
+      "feature": "ARHGAP44 (9912)",
+      "mean_abs_shap": 0.00018921569863145443,
       "fold": 0
     },
     {
-      "feature": "ARHGAP30 (257106)",
-      "mean_abs_shap": 0.00038344896119229366,
+      "feature": "GCKR (2646)",
+      "mean_abs_shap": 0.00018669652228775355,
       "fold": 0
     },
     {
-      "feature": "BNIP3 (664)",
-      "mean_abs_shap": 0.0003755437836592557,
+      "feature": "SYT1 (6857)",
+      "mean_abs_shap": 0.00018572019313187928,
       "fold": 0
     },
     {
-      "feature": "INA (9118)",
-      "mean_abs_shap": 0.000372647350440918,
+      "feature": "ADGRA2 (25960)",
+      "mean_abs_shap": 0.00016785297921766455,
       "fold": 0
     }
   ]

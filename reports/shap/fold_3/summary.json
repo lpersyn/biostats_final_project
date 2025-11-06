@@ -1,0 +1,133 @@
+{
+  "fold": 3,
+  "num_samples": 100,
+  "num_features": 19215,
+  "expected_values": null,
+  "top_features": [
+    {
+      "feature": "CFTR (1080)",
+      "mean_abs_shap": 0.003854186461605136,
+      "fold": 3
+    },
+    {
+      "feature": "ACTL6B (51412)",
+      "mean_abs_shap": 0.0017617270744141572,
+      "fold": 3
+    },
+    {
+      "feature": "H6PD (9563)",
+      "mean_abs_shap": 0.0017584697555556926,
+      "fold": 3
+    },
+    {
+      "feature": "FAT1 (2195)",
+      "mean_abs_shap": 0.0011590084680908838,
+      "fold": 3
+    },
+    {
+      "feature": "CTTN (2017)",
+      "mean_abs_shap": 0.0011467602391817347,
+      "fold": 3
+    },
+    {
+      "feature": "SLC6A16 (28968)",
+      "mean_abs_shap": 0.0009415826614723326,
+      "fold": 3
+    },
+    {
+      "feature": "CYFIP2 (26999)",
+      "mean_abs_shap": 0.0009340314276915546,
+      "fold": 3
+    },
+    {
+      "feature": "LMCD1 (29995)",
+      "mean_abs_shap": 0.0008967094155692843,
+      "fold": 3
+    },
+    {
+      "feature": "HSPA5 (3309)",
+      "mean_abs_shap": 0.0008215255058234591,
+      "fold": 3
+    },
+    {
+      "feature": "IL17RB (55540)",
+      "mean_abs_shap": 0.0007814845326026664,
+      "fold": 3
+    },
+    {
+      "feature": "GRAMD1B (57476)",
+      "mean_abs_shap": 0.0007750332178752005,
+      "fold": 3
+    },
+    {
+      "feature": "CEACAM1 (634)",
+      "mean_abs_shap": 0.0006907211105586403,
+      "fold": 3
+    },
+    {
+      "feature": "ATP11A (23250)",
+      "mean_abs_shap": 0.0005974365709775454,
+      "fold": 3
+    },
+    {
+      "feature": "DHX8 (1659)",
+      "mean_abs_shap": 0.0005260935315272253,
+      "fold": 3
+    },
+    {
+      "feature": "IPO5 (3843)",
+      "mean_abs_shap": 0.00047210612446681676,
+      "fold": 3
+    },
+    {
+      "feature": "STAG3 (10734)",
+      "mean_abs_shap": 0.00041700881846294115,
+      "fold": 3
+    },
+    {
+      "feature": "PHPT1 (29085)",
+      "mean_abs_shap": 0.00035025340770095706,
+      "fold": 3
+    },
+    {
+      "feature": "ACTR6 (64431)",
+      "mean_abs_shap": 0.00026958722946912464,
+      "fold": 3
+    },
+    {
+      "feature": "CLCN4 (1183)",
+      "mean_abs_shap": 0.00026832516962506294,
+      "fold": 3
+    },
+    {
+      "feature": "GTSE1 (51512)",
+      "mean_abs_shap": 0.00026240480409860843,
+      "fold": 3
+    },
+    {
+      "feature": "WAS (7454)",
+      "mean_abs_shap": 0.00025883289518517666,
+      "fold": 3
+    },
+    {
+      "feature": "TLE2 (7089)",
+      "mean_abs_shap": 0.00022473469410782266,
+      "fold": 3
+    },
+    {
+      "feature": "SLC12A2 (6558)",
+      "mean_abs_shap": 0.00021994026366218192,
+      "fold": 3
+    },
+    {
+      "feature": "IL4R (3566)",
+      "mean_abs_shap": 0.00021614658642157234,
+      "fold": 3
+    },
+    {
+      "feature": "ARHGAP10 (79658)",
+      "mean_abs_shap": 0.00021464175941374243,
+      "fold": 3
+    }
+  ]
+}

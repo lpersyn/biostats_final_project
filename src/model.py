@@ -61,7 +61,7 @@ class LGBM_Model:
                 "classes": self.classes
                 }, f)
 
-    def _get_train_data(self, folds):
+    def get_train_data(self, folds):
         data_frames = []
         for fold in folds:
             df = pd.read_csv(f"{self.data_dir}/fold_{fold}.csv", index_col=0)
@@ -80,7 +80,7 @@ class LGBM_Model:
     def _recompute_gene_sets(self):
         for fold in self.models.keys():
             train_folds = self.train_val_folds - {fold}
-            train_X, _ = self._get_train_data(train_folds)
+            train_X, _ = self.get_train_data(train_folds)
             self.reduce_gene_set(fold, train_X)
 
     def get_fold_data(self, fold: int, subset_to_model: bool = True, include_labels: bool = True):
@@ -114,15 +114,15 @@ class LGBM_Model:
             val_data = pd.read_csv(f"{self.data_dir}/fold_{fold}.csv", index_col=0)
             val_y = pd.Categorical(val_data.pop("Lineage"), categories=self.classes)
             train_folds = self.train_val_folds - {fold}
-            train_X, train_y = self._get_train_data(train_folds)
+            train_X, train_y = self.get_train_data(train_folds)
             train_X = self.reduce_gene_set(fold, train_X)
             val_data = val_data[self.genes_used_by_model[fold]]
             model.fit(train_X, train_y.codes, eval_set=[(val_data, val_y.codes)])
-            acc = model.score(train_X, train_y.codes)
+            acc = model.score(train_X, train_y.codes)  # type: ignore[attr-defined]
             print(f"Train acc: {acc:.4f},", end=" ")
             if log_file:
                 log.write(f"Train acc: {acc:.4f}, ")
-            acc = model.score(val_data, val_y.codes)
+            acc = model.score(val_data, val_y.codes)  # type: ignore[attr-defined]
             print(f"Val acc: {acc:.4f},", end=" ")
             if log_file:
                 log.write(f"Val acc: {acc:.4f}, ")
@@ -138,17 +138,56 @@ class LGBM_Model:
 
 
     def predict(self, X):
-        # average probability predictions from all models
-        preds = np.zeros((X.shape[0], len(self.models), self.num_classes))
-        for fold, model in self.models.items():
-            pred_X = X[self.genes_used_by_model[fold]]
-            preds[:, fold, :] = np.asarray(model.predict_proba(pred_X))
-        avg_preds = preds.mean(axis=1)
-        final_preds = pd.Series(pd.Categorical.from_codes(
-            np.argmax(avg_preds, axis=1).astype(int),
-            categories=self.classes
-        ), index=X.index)
-        return final_preds
+        overall_preds, _ = self.predict_by_fold(X)
+        return overall_preds
+
+    def predict_by_fold(self, X):
+        """Return ensemble predictions alongside per-fold model predictions.
+
+        Parameters
+        ----------
+        X : pandas.DataFrame
+            Input features indexed by sample identifier. This frame should include all
+            expression columns; each fold model will subset to its selected genes.
+
+        Returns
+        -------
+        overall : pandas.Series
+            Predictions from the ensemble obtained by averaging per-fold probabilities.
+        per_fold : dict[int, pandas.Series]
+            Mapping from fold identifier to that fold model's predictions on ``X``.
+        """
+        if not self.models:
+            raise ValueError("No trained models are available for prediction.")
+
+        fold_ids = sorted(self.models.keys())
+        probabilities = []
+        per_fold_predictions = {}
+
+        for fold in fold_ids:
+            genes = self.genes_used_by_model.get(fold)
+            if genes is None:
+                raise ValueError(
+                    f"Gene set for fold {fold} is not available. Train or load a model with stored gene subsets."
+                )
+            pred_X = X.loc[:, genes]
+            model = self.models[fold]
+            fold_proba = np.asarray(model.predict_proba(pred_X))
+            probabilities.append(fold_proba)
+            fold_codes = np.argmax(fold_proba, axis=1).astype(int)
+            per_fold_predictions[fold] = pd.Series(
+                pd.Categorical.from_codes(fold_codes, categories=self.classes),
+                index=X.index
+            )
+
+        avg_proba = np.mean(probabilities, axis=0)
+        avg_codes = np.argmax(avg_proba, axis=1).astype(int)
+        overall_predictions = pd.Series(
+            pd.Categorical.from_codes(avg_codes, categories=self.classes),
+            index=X.index
+        )
+
+        return overall_predictions, per_fold_predictions
 
     def accuracy(self, X, y):
         preds = self.predict(X)

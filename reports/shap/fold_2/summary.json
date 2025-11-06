@@ -1,0 +1,133 @@
+{
+  "fold": 2,
+  "num_samples": 100,
+  "num_features": 19215,
+  "expected_values": null,
+  "top_features": [
+    {
+      "feature": "DKK3 (27122)",
+      "mean_abs_shap": 0.0015254742565694757,
+      "fold": 2
+    },
+    {
+      "feature": "DLL3 (10683)",
+      "mean_abs_shap": 0.0011269723418511348,
+      "fold": 2
+    },
+    {
+      "feature": "PPP1R13B (23368)",
+      "mean_abs_shap": 0.0010014114573483049,
+      "fold": 2
+    },
+    {
+      "feature": "ADGRL1 (22859)",
+      "mean_abs_shap": 0.0008729592484093435,
+      "fold": 2
+    },
+    {
+      "feature": "IFI35 (3430)",
+      "mean_abs_shap": 0.0007045590249387345,
+      "fold": 2
+    },
+    {
+      "feature": "SERPINB1 (1992)",
+      "mean_abs_shap": 0.0006553180591720614,
+      "fold": 2
+    },
+    {
+      "feature": "FAS (355)",
+      "mean_abs_shap": 0.0006265721086229944,
+      "fold": 2
+    },
+    {
+      "feature": "TRIB2 (28951)",
+      "mean_abs_shap": 0.0006009437423663151,
+      "fold": 2
+    },
+    {
+      "feature": "HEXB (3074)",
+      "mean_abs_shap": 0.00044010445921045414,
+      "fold": 2
+    },
+    {
+      "feature": "RBM22 (55696)",
+      "mean_abs_shap": 0.0004277929361801964,
+      "fold": 2
+    },
+    {
+      "feature": "MUSK (4593)",
+      "mean_abs_shap": 0.0004230201712934974,
+      "fold": 2
+    },
+    {
+      "feature": "CRY1 (1407)",
+      "mean_abs_shap": 0.00042157998556138386,
+      "fold": 2
+    },
+    {
+      "feature": "MLXIPL (51085)",
+      "mean_abs_shap": 0.0003720699932318688,
+      "fold": 2
+    },
+    {
+      "feature": "SLC38A5 (92745)",
+      "mean_abs_shap": 0.0003659928720506704,
+      "fold": 2
+    },
+    {
+      "feature": "RETSAT (54884)",
+      "mean_abs_shap": 0.0003516161626803223,
+      "fold": 2
+    },
+    {
+      "feature": "TBXA2R (6915)",
+      "mean_abs_shap": 0.00032726320942398765,
+      "fold": 2
+    },
+    {
+      "feature": "TTC38 (55020)",
+      "mean_abs_shap": 0.0003201550477874469,
+      "fold": 2
+    },
+    {
+      "feature": "CHRDL2 (25884)",
+      "mean_abs_shap": 0.00031801283537758677,
+      "fold": 2
+    },
+    {
+      "feature": "RGS11 (8786)",
+      "mean_abs_shap": 0.0003077494854165632,
+      "fold": 2
+    },
+    {
+      "feature": "ELMO2 (63916)",
+      "mean_abs_shap": 0.00029640841027220213,
+      "fold": 2
+    },
+    {
+      "feature": "OAS1 (4938)",
+      "mean_abs_shap": 0.0002928346592255979,
+      "fold": 2
+    },
+    {
+      "feature": "CRYBG3 (131544)",
+      "mean_abs_shap": 0.00029172335353335534,
+      "fold": 2
+    },
+    {
+      "feature": "SEMA3B (7869)",
+      "mean_abs_shap": 0.0002800625973782583,
+      "fold": 2
+    },
+    {
+      "feature": "GAB2 (9846)",
+      "mean_abs_shap": 0.0002635700868452803,
+      "fold": 2
+    },
+    {
+      "feature": "ASAP3 (55616)",
+      "mean_abs_shap": 0.00025148764876423445,
+      "fold": 2
+    }
+  ]
+}

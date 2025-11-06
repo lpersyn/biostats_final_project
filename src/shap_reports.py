@@ -1,6 +1,7 @@
 import argparse
 import json
 from pathlib import Path
+import time
 
 import matplotlib
 matplotlib.use("Agg")
@@ -123,7 +124,7 @@ def _write_json(data, output_path: Path):
 
 
 def generate_fold_reports(model: LGBM_Model, fold: int, output_dir: Path, sample_rows: int, random_state: int, beeswarm_max_display: int, bar_max_display: int):
-	X, y = model.get_fold_data(fold, subset_to_model=True, include_labels=True)
+	X, y = model.get_train_data(model.train_val_folds - {fold})
 	X_sampled, y_sampled = _sample_frame(X, y, sample_rows, random_state)
 
 	explainer = shap.TreeExplainer(model.models[fold], data=X_sampled, model_output="probability")
@@ -170,7 +171,14 @@ def generate_fold_reports(model: LGBM_Model, fold: int, output_dir: Path, sample
 	}
 
 
-def aggregate_importance(fold_importances, output_dir: Path, bar_max_display: int):
+def aggregate_importance(output_dir: Path, bar_max_display: int):
+	fold_importances = []
+	for fold_dir in output_dir.glob("fold_*"):
+		fi_path = fold_dir / "feature_importance.csv"
+		if fi_path.exists():
+			df = pd.read_csv(fi_path)
+			fold_importances.append(df)
+	print(f"Aggregating feature importance from {len(fold_importances)} folds")
 	combined = pd.concat([frame for frame in fold_importances], ignore_index=True)
 	agg = (
 		combined
@@ -229,10 +237,16 @@ def main():
 	beeswarm_max_display = args.beeswarm_max_display if args.beeswarm_max_display is not None else args.max_display
 	bar_max_display = args.bar_max_display if args.bar_max_display is not None else args.max_display
 
-	fold_results = []
 	shap_tensors = []
 
 	for fold in folds:
+		# if feature_importance.csv already exists for this fold, skip
+		fold_dir = output_dir / f"fold_{fold}"
+		if (fold_dir / "feature_importance.csv").exists():
+			print(f"Skipping fold {fold} as reports already exist.")
+			continue
+		print(f"Generating SHAP reports for fold {fold},", end="", flush=True)
+		start_time = time.time()
 		report = generate_fold_reports(
 			model=model,
 			fold=fold,
@@ -242,10 +256,12 @@ def main():
 			beeswarm_max_display=beeswarm_max_display,
 			bar_max_display=bar_max_display
 		)
-		fold_results.append(report["feature_importance"])
 		shap_tensors.append(report["shap_tensor"])
+		elapsed_mins = (time.time() - start_time) / 60.0
+		print(f" done in {elapsed_mins:.2f} mins.")
 
-	aggregate_importance(fold_results, output_dir, bar_max_display)
+
+	aggregate_importance(output_dir, bar_max_display)
 
 	if shap_tensors:
 		combined_tensor = pd.concat(shap_tensors, axis=0)

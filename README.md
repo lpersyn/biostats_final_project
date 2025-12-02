@@ -16,7 +16,20 @@
  - model details can be found in `./src/model.py`
  - Train with `python ./src/train.py`
 
- ## Evaluation
+## Evaluation
   - calculate test accuracies and create plots with `python ./src/test_performance.py`
   - calculate pearson correlation between performance metrics with `python ./src/calc_correlations.py`
   - calculate shap values and create feature importance plot with `python ./src/shap_reports.py`
+
+## Report
+Our final report can be found under `final_report.pdf`.
+
+Figures and related code:
+- Figures 1-4: `./figures/Figures_1-4_Gabe.ipynb`
+- Figure 5: `./reports/performance/accuracy_by_fold.png`
+- Figure 6: `./reports/performance/accuracy_by_lineage.png`
+- Figure 7: `./reports/shap/aggregate_feature_importance.png`
+- Figure 8: `./figures/figure_8_10_kristi.ipynb`
+- Figure 9: `./figures/figs_9_11-13_morgan.ipynb`
+- Figure 10: `./figures/figure_8_10_kristi.ipynb`
+- Figure 11-13: `./figures/figs_9_11-13_morgan.ipynb`
